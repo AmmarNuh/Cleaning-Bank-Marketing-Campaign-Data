@@ -14,39 +14,39 @@ They have supplied you with a csv file called "bank_marketing.csv", which I will
 
 ## `client.csv`
 
-| column | data type | description | cleaning requirements |
-|--------|-----------|-------------|-----------------------|
-| `client_id` | `integer` | Client ID | N/A |
-| `age` | `integer` | Client's age in years | N/A |
-| `job` | `object` | Client's type of job | Change `"."` to `"_"` |
-| `marital` | `object` | Client's marital status | N/A |
-| `education` | `object` | Client's level of education | Change `"."` to `"_"` and `"unknown"` to `np.NaN` |
-| `credit_default` | `bool` | Whether the client's credit is in default | Convert to `boolean` data type:<br> `1` if `"yes"`, otherwise `0` |
-| `mortgage` | `bool` | Whether the client has an existing mortgage (housing loan) | Convert to boolean data type:<br> `1` if `"yes"`, otherwise `0` |
+| column | data type | description |
+|--------|-----------|-------------|
+| `client_id` | `integer` | Client ID |
+| `age` | `integer` | Client's age in years |
+| `job` | `object` | Client's type of job |
+| `marital` | `object` | Client's marital status |
+| `education` | `object` | Client's level of education |
+| `credit_default` | `bool` | Whether the client's credit is in default |
+| `mortgage` | `bool` | Whether the client has an existing mortgage (housing loan) |
 
 <br>
 
 ## `campaign.csv`
 
-| column | data type | description | cleaning requirements |
-|--------|-----------|-------------|-----------------------|
-| `client_id` | `integer` | Client ID | N/A |
-| `number_contacts` | `integer` | Number of contact attempts to the client in the current campaign | N/A |
-| `contact_duration` | `integer` | Last contact duration in seconds | N/A |
-| `previous_campaign_contacts` | `integer` | Number of contact attempts to the client in the previous campaign | N/A |
-| `previous_outcome` | `bool` | Outcome of the previous campaign | Convert to boolean data type:<br> `1` if `"success"`, otherwise `0`. |
-| `campaign_outcome` | `bool` | Outcome of the current campaign | Convert to boolean data type:<br> `1` if `"yes"`, otherwise `0`. |
-| `last_contact_date` | `datetime` | Last date the client was contacted | Create from a combination of `day`, `month`, and a newly created `year` column (which should have a value of `2022`); <br> **Format =** `"YYYY-MM-DD"` |
+| column | data type | description |
+|--------|-----------|-------------|
+| `client_id` | `integer` | Client ID |
+| `number_contacts` | `integer` | Number of contact attempts to the client in the current campaign |
+| `contact_duration` | `integer` | Last contact duration in seconds |
+| `previous_campaign_contacts` | `integer` | Number of contact attempts to the client in the previous campaign |
+| `previous_outcome` | `bool` | Outcome of the previous campaign |
+| `campaign_outcome` | `bool` | Outcome of the current campaign |
+| `last_contact_date` | `datetime` | Last date the client was contacted |
 
 <br>
 
 ## `economics.csv`
 
-| column | data type | description | cleaning requirements |
-|--------|-----------|-------------|-----------------------|
-| `client_id` | `integer` | Client ID | N/A |
-| `cons_price_idx` | `float` | Consumer price index (monthly indicator) | N/A |
-| `euribor_three_months` | `float` | Euro Interbank Offered Rate (euribor) three-month rate (daily indicator) | N/A |
+| column | data type | description | 
+|--------|-----------|-------------|
+| `client_id` | `integer` | Client ID |
+| `cons_price_idx` | `float` | Consumer price index (monthly indicator) |
+| `euribor_three_months` | `float` | Euro Interbank Offered Rate (euribor) three-month rate (daily indicator) |
 
 ## Source data set:
 
