@@ -53,7 +53,7 @@ They have supplied you with a csv file called "bank_marketing.csv", which I will
 ![Cleaning Bank Marketing Campaign Data _ Workspace - Google Chrome 5_1_2024 7_43_13 AM](https://github.com/AmmarNuh/Cleaning-Bank-Marketing-Campaign-Data/assets/135957269/e5dcafbf-6e6c-4de2-b04b-cff2fc1ea673)
 
 ## The code:
-
+https://github.com/AmmarNuh/Cleaning-Bank-Marketing-Campaign-Data/blob/04080da814f6e5384a82736453901acfdf1f46c4/Bank_Marketing_Campaign.py
 ## Result:
 
 ![Cleaning Bank Marketing Campaign Data _ Workspace - Google Chrome 5_1_2024 7_46_44 AM](https://github.com/AmmarNuh/Cleaning-Bank-Marketing-Campaign-Data/assets/135957269/d6ef2947-a253-4c9f-9045-404ee231730d)
